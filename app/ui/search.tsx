@@ -1,4 +1,4 @@
-export default function NavbarSearch() {
+export default function Search() {
 
   return (
     <div>

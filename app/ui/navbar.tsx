@@ -1,8 +1,8 @@
 'use client'
 
 import { useState } from "react"
-import NavbarButton from "./navbar-button"
-import NavbarSearch from "./navbar-search"
+import Search from "./search"
+import Hamburger from "./hamburger"
 import '@/app/ui/css/sidebar.css'
 
 export default function Navbar() {
@@ -14,8 +14,8 @@ export default function Navbar() {
 
   return (
     <div className="flex flex-row gap-3 m-3">
-      <NavbarButton toogleButton={switchToogle} />
-      <NavbarSearch />
+      <Hamburger toogleButton={switchToogle} />
+      <Search />
 
       <div className={`${(toogle) ? 'showSideNav' : 'hideSideNav'} absolute top-0 left-0 w-full h-full `}>
         <div

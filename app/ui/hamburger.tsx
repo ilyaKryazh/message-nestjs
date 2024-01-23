@@ -1,4 +1,4 @@
-export default function NavbarButton({ toogleButton }: { toogleButton: () => void }) {
+export default function Hamburger({ toogleButton }: { toogleButton: () => void }) {
 
   return (
     <div>
