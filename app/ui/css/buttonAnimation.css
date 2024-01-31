@@ -1,0 +1,8 @@
+.button {
+  transition: transform 0.3s ease;
+}
+
+.button.clicked {
+  background-color: #2980b9;
+  transform: scale(1.1);
+}
